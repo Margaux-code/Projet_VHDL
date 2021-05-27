@@ -1,0 +1,8 @@
+
+State Machine - |Feu_tricolore|pr_state
+Name pr_state.RG pr_state.YR pr_state.GR pr_state.RY pr_state.oo 
+pr_state.oo 0 0 0 0 0 
+pr_state.RY 0 0 0 1 1 
+pr_state.GR 0 0 1 0 1 
+pr_state.YR 0 1 0 0 1 
+pr_state.RG 1 0 0 0 1 

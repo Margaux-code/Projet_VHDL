@@ -1,0 +1,28 @@
+library ieee;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY entity_horloge IS
+END entity_horloge;
+
+ARCHITECTURE behavior of entity_horloge is 
+	COMPONENT horloge
+	 PORT(clock : IN std_logic;)
+END COMPONENT;
+
+ signal clock : std_logic := '0';
+   constant clock_period : time := 1 ns;
+
+	BEGIN
+	
+	  uut: test PORT MAP (clk => clk);       
+
+   -- Clock process definitions( clock with 50% duty cycle is generated here.
+   clk_process :process
+   begin
+        clk <= '0';
+        wait for clk_period/2;  --for 0.5 ns signal is '0'.
+        clk <= '1';
+        wait for clk_period/2;  --for next 0.5 ns signal is '1'.
+   end process;
+
+END;

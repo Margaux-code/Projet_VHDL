@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus",
+		"comment" : "none",
+		"error_message" : "Access Violation at 0X00007FF92C0FCE49",
+		"source_file" : "unknown",
+		"line" : "0",
+		"stack_trace" : "\t0x7ff92c0fce48: ISD_Tablet + 0x1ce48 (WacomExtHook + 0x1a3d1)\n\t0x7ff92c0ff916: ISD_Tablet + 0x1f916 (WacomExtHook + 0x1ce9f)\n\t0x7ff92c0fbfd7: ISD_Tablet + 0x1bfd7 (WacomExtHook + 0x19560)\n\t0x7ff92c0fc897: ISD_Tablet + 0x1c897 (WacomExtHook + 0x19e20)\n\t0x7ff92c0fedde: ISD_Tablet + 0x1edde (WacomExtHook + 0x1c367)\n\t0x7ff92c137208: ISD_Tablet + 0x57208 (WacomExtHook + 0x54791)\n\t0x7ff94d1b7033: KERNEL32 + 0x17033 (BaseThreadInitThunk + 0x13)\n\t0x7ff94ed82650: ntdll + 0x52650 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "unknown"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "18.1.0",
+		"build" : "625",
+		"edition" : "Lite Edition"
+	}
+}
