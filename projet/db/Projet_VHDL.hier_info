@@ -10,14 +10,57 @@ led_orange2 << led_orange2~reg0.DB_MAX_OUTPUT_PORT_TYPE
 led_rouge2 << led_rouge2~reg0.DB_MAX_OUTPUT_PORT_TYPE
 pieton_vert2 << pieton_vert2~reg0.DB_MAX_OUTPUT_PORT_TYPE
 pieton_rouge2 << pieton_rouge2~reg0.DB_MAX_OUTPUT_PORT_TYPE
-HEX[0] <= HEX[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-HEX[1] <= HEX[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-HEX[2] <= HEX[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-HEX[3] <= HEX[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-HEX[4] <= HEX[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-HEX[5] <= HEX[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-HEX[6] <= HEX[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
-HEX[7] <= HEX[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+HEX[0] <= feu_alternant:f1.HEX[0]
+HEX[1] <= feu_alternant:f1.HEX[1]
+HEX[2] <= feu_alternant:f1.HEX[2]
+HEX[3] <= feu_alternant:f1.HEX[3]
+HEX[4] <= feu_alternant:f1.HEX[4]
+HEX[5] <= feu_alternant:f1.HEX[5]
+HEX[6] <= feu_alternant:f1.HEX[6]
+HEX[7] <= feu_alternant:f1.HEX[7]
+
+
+|Projet_VHDL|feu_alternant:f1
+HEX[0] <= HEX[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+HEX[1] <= HEX[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+HEX[2] <= HEX[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+HEX[3] <= HEX[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+HEX[4] <= HEX[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+HEX[5] <= HEX[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+HEX[6] <= HEX[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+HEX[7] <= <VCC>
+clk2 => sept_segments[0].CLK
+clk2 => sept_segments[1].CLK
+clk2 => sept_segments[2].CLK
+clk2 => sept_segments[3].CLK
+clk2 => sept_segments[4].CLK
+clk2 => sept_segments[5].CLK
+clk2 => sept_segments[6].CLK
+clk2 => sept_segments[7].CLK
+clk2 => sept_segments[8].CLK
+clk2 => sept_segments[9].CLK
+clk2 => sept_segments[10].CLK
+clk2 => sept_segments[11].CLK
+clk2 => sept_segments[12].CLK
+clk2 => sept_segments[13].CLK
+clk2 => sept_segments[14].CLK
+clk2 => sept_segments[15].CLK
+clk2 => sept_segments[16].CLK
+clk2 => sept_segments[17].CLK
+clk2 => sept_segments[18].CLK
+clk2 => sept_segments[19].CLK
+clk2 => sept_segments[20].CLK
+clk2 => sept_segments[21].CLK
+clk2 => sept_segments[22].CLK
+clk2 => sept_segments[23].CLK
+clk2 => sept_segments[24].CLK
+clk2 => sept_segments[25].CLK
+clk2 => sept_segments[26].CLK
+clk2 => sept_segments[27].CLK
+clk2 => sept_segments[28].CLK
+clk2 => sept_segments[29].CLK
+clk2 => sept_segments[30].CLK
+clk2 => sept_segments[31].CLK
 
 
 |Projet_VHDL|compteur:clkdiv

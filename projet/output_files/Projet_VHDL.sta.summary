@@ -3,15 +3,15 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'compteur:clkdiv|lpm_counter:LPM_COUNTER_component|cntr_k5h:auto_generated|counter_reg_bit[25]'
-Slack : -9.960
-TNS   : -420.700
+Slack : -6.499
+TNS   : -246.835
 
 Type  : Slow 1200mV 85C Model Setup 'clk_50m'
 Slack : -2.166
 TNS   : -35.635
 
 Type  : Slow 1200mV 85C Model Hold 'compteur:clkdiv|lpm_counter:LPM_COUNTER_component|cntr_k5h:auto_generated|counter_reg_bit[25]'
-Slack : 0.341
+Slack : 0.322
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'clk_50m'
@@ -24,18 +24,18 @@ TNS   : -39.478
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'compteur:clkdiv|lpm_counter:LPM_COUNTER_component|cntr_k5h:auto_generated|counter_reg_bit[25]'
 Slack : -1.403
-TNS   : -109.434
+TNS   : -98.210
 
 Type  : Slow 1200mV 0C Model Setup 'compteur:clkdiv|lpm_counter:LPM_COUNTER_component|cntr_k5h:auto_generated|counter_reg_bit[25]'
-Slack : -8.990
-TNS   : -374.935
+Slack : -5.823
+TNS   : -216.371
 
 Type  : Slow 1200mV 0C Model Setup 'clk_50m'
 Slack : -1.846
 TNS   : -29.480
 
 Type  : Slow 1200mV 0C Model Hold 'compteur:clkdiv|lpm_counter:LPM_COUNTER_component|cntr_k5h:auto_generated|counter_reg_bit[25]'
-Slack : 0.306
+Slack : 0.288
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'clk_50m'
@@ -48,18 +48,18 @@ TNS   : -39.478
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'compteur:clkdiv|lpm_counter:LPM_COUNTER_component|cntr_k5h:auto_generated|counter_reg_bit[25]'
 Slack : -1.403
-TNS   : -109.434
+TNS   : -98.210
 
 Type  : Fast 1200mV 0C Model Setup 'compteur:clkdiv|lpm_counter:LPM_COUNTER_component|cntr_k5h:auto_generated|counter_reg_bit[25]'
-Slack : -3.473
-TNS   : -128.871
+Slack : -2.067
+TNS   : -68.931
 
 Type  : Fast 1200mV 0C Model Setup 'clk_50m'
 Slack : -0.893
 TNS   : -1.492
 
 Type  : Fast 1200mV 0C Model Hold 'compteur:clkdiv|lpm_counter:LPM_COUNTER_component|cntr_k5h:auto_generated|counter_reg_bit[25]'
-Slack : 0.148
+Slack : 0.139
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clk_50m'
@@ -72,6 +72,6 @@ TNS   : -30.032
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'compteur:clkdiv|lpm_counter:LPM_COUNTER_component|cntr_k5h:auto_generated|counter_reg_bit[25]'
 Slack : -1.000
-TNS   : -78.000
+TNS   : -70.000
 
 ------------------------------------------------------------

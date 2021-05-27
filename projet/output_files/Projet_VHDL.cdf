@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(10M50DAF484) Path("C:/Users/marga/OneDrive/Cours ING 2/VHDL/projet/output_files/") File("Projet_VHDL.sof") MfrSpec(OpMask(1));
+		Device PartName(10M50DAF484) Path("C:/Users/marga/OneDrive/Cours ING 2/Projet_VHDL/projet/output_files/") File("Projet_VHDL.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
